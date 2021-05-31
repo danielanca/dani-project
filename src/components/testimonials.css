@@ -2,18 +2,24 @@
     
     background-color: #F2F2F2;
     border: 4px dotted red;
-    height: 400px;
+    height: 600px;
     display: flex;
 }
 
 .testimonial-line{
-    background: linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
+    background: linear-gradient(
+90deg
+, #FFAC12 0%, #000000 94.96%);
     border-radius: 2px;
     border-radius: 2px;
-    height: 4px;  
+    height: 4px;
     width: 336px;
-   
     margin: 0 auto;
+    /* position: absolute; */
+    left: 50%;
+    top: 109px;
+    -webkit-transform: translate(-50%, 0);
+    position: absolute;
 }
 
 .text_desc{
@@ -21,7 +27,7 @@
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
-    line-height: 32px;
+    line-height: 38px;
     letter-spacing: -0.603077px;
     width: 333px;
     border: 3px red solid;
@@ -29,5 +35,88 @@
     position: absolute;
     margin: 0 auto;
     transform-origin: center;
+    width: 317px;
+    left: 50%;
+    top: 139px;
+    -webkit-transform: translate(-50%, 0);
+    position: absolute;
     
+}
+
+.testimonial_container{
+    display: flex;
+    justify-content: space-around;
+    border: blue dotted 3px;
+    width: 700px;
+    height: 133px;
+    /* position: absolute; */
+    -webkit-transform: translate(-50%, 0);
+    position: absolute;
+    /* left: 679px; */
+    margin: 0 auto;
+    top: 359px;
+    transform-origin: center;
+    /* width: 317px; */
+    left: 50%;
+}
+
+.cell{
+    display: flex;
+    margin: auto;
+    border: 2px red dotted;
+    height: 100%;
+    width: 100%;
+    align-items:center;
+    justify-content:center;
+}
+
+.profile-pic{
+    background-image: var(--imgna);
+    background-repeat: no-repeat;
+    height: auto;
+    width: 50px;
+    margin: 15px;
+
+}
+
+
+.profile-name{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: -0.376923px;
+
+    color: #000000;
+}
+
+
+.profile-desc{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: -0.376923px;
+
+    color: #979797;
+}
+.text-wrapper{
+    
+}
+
+.black-back{
+    background-color:#000000 ;
+}
+
+.white{
+    color:white;
+}
+.gray{
+    color:gray;
 }
