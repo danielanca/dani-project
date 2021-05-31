@@ -1,0 +1,64 @@
+.black_section{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    color:red;
+    border-radius: 5px solid green;
+    position: absolute;
+    
+}
+
+.line_design{
+    position: absolute;
+    /* top: 100px; */
+    /* left: 500px; */
+    width: 200px;
+    height: 6px;
+    background: linear-gradient(
+90deg
+, #FFAC12 0%, rgba(0, 0, 0, 0.0001) 94.96%);
+    border-radius: 2px;
+    top: 25%;
+    left: 44%;
+    margin: -35px 0 0 -35px;
+    
+}
+
+.white_text{
+    color: white;
+    font-weight: 500;
+    border-color: 5px solid green;
+    position: absolute;
+    left: 300px;
+    width: 600px;
+    height: 100px;
+    font-size: 50px;
+    top: 30%;
+    left: 32%;
+    margin: -35px 0 0 -35px;
+}
+
+.descriptive{
+    color: white;
+    opacity: 0.7;
+    border: 1px solid red;
+    width: 376px;
+    top: 222px;
+    position: absolute;
+    margin: auto;
+    top: 44%;
+    left: 40%;
+    margin: -35px 0 0 -35px;
+}
+
+.button_click{
+    background-color: #FFAC12;
+    width: 135px;
+    height: 49px;
+    top: 375px;
+    position: absolute;
+    margin: auto;
+    top: 71%;
+    left: 46%;
+    margin: -35px 0 0 -35px;
+}

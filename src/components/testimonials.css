@@ -1,0 +1,33 @@
+.background_c{
+    
+    background-color: #F2F2F2;
+    border: 4px dotted red;
+    height: 400px;
+    display: flex;
+}
+
+.testimonial-line{
+    background: linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
+    border-radius: 2px;
+    border-radius: 2px;
+    height: 4px;
+    width: 336px;
+   
+    margin: 0 auto;
+}
+
+.text_desc{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.603077px;
+    width: 333px;
+    border: 3px red solid;
+    left: 50%;
+    position: absolute;
+    margin: 0 auto;
+    transform-origin: center;
+    
+}

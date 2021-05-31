@@ -1,0 +1,70 @@
+
+.descriptivetext{
+    position: absolute;
+    color: white;
+    border: 3px dotted white;
+    width: 298px;
+    height: 99px;
+    left: 166px;
+    top: 262px;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    font-size: 13px;
+    text-align: start;
+}
+.large{
+    font-size: 50px;
+    color:white;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    line-height: 80px;
+    letter-spacing: 0.78974px;
+    line-height: 61.1px;
+    margin-left:180px;
+    margin-top:100px;
+}
+.split_container {
+    
+   
+    border: 3px solid blue;
+
+    position: absolute;
+    top:11px;
+    height: 400px;
+    width: 95%;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 5 / 3;
+        border: 3px solid red;
+        height: 100%;
+    }
+    .div2 { grid-area: 1 / 3 / 5 / 5;
+        border: 3px solid red;
+    
+    }
+
+.rectangle-listing{
+    position: relative;
+    width: 672px;
+    height: 101px;
+    opacity: 5.6;
+    background-color: white;
+    margin: 100px auto;
+}
+
+.listings-text{
+    position: absolute;
+    height: 27px;
+    left: 47.8px;
+    /* right: 82.21%; */
+    top: calc(25% - 26px/2);
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 26px;
+    letter-spacing: -0.502564px;
+    color: #000000;
+}
