@@ -1,0 +1,83 @@
+.house_detail_background{
+    background-color: black;
+    height: 84px;
+}
+
+
+.detail_header{
+    background-color: black;
+    height: 150px;
+    width: 100%;
+    
+}
+
+.text-h{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    /* identical to box height */
+
+    letter-spacing: -0.804102px;
+
+    color: #FFFFFF;
+}
+
+.text-small{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+
+    letter-spacing: -0.376923px;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+
+.text-price{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    /* identical to box height */
+
+    text-align: right;
+    letter-spacing: -0.804102px;
+
+    color: #FFFFFF;
+}
+
+.text-msquare{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    /* identical to box height */
+
+    text-align: right;
+    letter-spacing: -0.804102px;
+
+    color: #FFFFFF;
+}
+
+.left-wrapper{
+    position: absolute;
+    left: 25vh;
+    top: 25vh;
+}
+
+.right-wrapper{
+
+    position: absolute;
+    right: 20vh;
+    top: 23vh;
+}

@@ -12,14 +12,19 @@ import '../components/End_Part.css';
 import Testimonials from '../components/Testimonials';
 import '../components/testimonials.css';
 
-
+// First page
 function Bodyground()
 {
     
     return(
       <div>
         <div className="full_wrap" >
-              {/* <Menu_header name="NavLink1"> </Menu_header>
+          
+              {/*
+              <div className="header_h" style= {{"--img":  `url(${header_background})`}}>
+               <Menu_header name="NavLink1"> </Menu_header>
+               </div>
+                <Hero_component title="Beautiful homes made for you"> </Hero_component>
               <Details_component></Details_component> 
               <Search_container></Search_container> 
               <Details_component></Details_component>  */}
