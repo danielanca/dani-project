@@ -70,14 +70,132 @@
 }
 
 .left-wrapper{
-    position: absolute;
-    left: 25vh;
-    top: 25vh;
+    position: relative;
+    left: -34%;
+    top: 20%;
+
 }
 
 .right-wrapper{
 
-    position: absolute;
-    right: 20vh;
-    top: 23vh;
+    position: relative;
+    right: 7%;
+    top: -33%;
+}
+
+.contact-form{
+  
+    height: 600px;
+    width: 333px;
+    border: 3px solid green;
+    margin: auto;
+    left: 403px;
+    top: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    background: #FFFFFF;
+    box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.133714);
+    border-radius: 25px;
+   
+}
+
+.view-profile{
+    border: chartreuse solid 3px;
+    height: 166px;
+    width: 74%;
+    margin: 0px auto;
+    background: #F5F5F5;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.form-container{
+    border: chartreuse solid 3px;
+    height: 100%;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.view-more{
+    height: 150px;
+    width: 100%;
+    border: blue solid 3px;
+}
+.form{
+    width: 89%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    /* box-sizing: border-box; */
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.376923px;
+    color: #000000;
+    border: 2px solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.contactname{
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    letter-spacing: -0.376923px;
+    
+    color: #000000;
+}
+
+.profile-link{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    letter-spacing: -0.326667px;
+    
+    color: #FFAC12;
+}
+
+.profile-text{
+    /* margin: auto; */
+}
+
+.profilephoto{
+    width: 63px;
+    height: 61px;
+    border: red dotted 3px;
+    /* margin: auto; */
+}
+
+.button-viewmore{
+    background: #000000;
+    border-radius: 0px 18px 0px 0px;
+    height: 83px;
+    width: 274px;
+    margin: 10px;
+    position: relative;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+ 
+    line-height: 22px;
+    letter-spacing: -0.427179px;
+}
+.arrow-c{
+    margin: 0px 14px;
 }
