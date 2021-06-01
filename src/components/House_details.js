@@ -2,8 +2,9 @@ import Menu_header from './Menu_header';
 import './house_details.css';
 import contact_profile_pic from '../media/avatar.png'
 import arrow_right from '../media/arrow.png';
-import picArray from '../media/image_importer';
+import picArray from '../components/image_importer';
 import image_src from '../media/house_interior.png';
+import slot_icons from '../components/slot_icons_importer';
 // Second page
 function House_details()
 {
@@ -27,18 +28,16 @@ function House_details()
         <div className="big-wrapper">
             <img className="imagePreviewFull" src={image_src}></img>
             <div className="preview-container">
-              
-                <img src={}></img>
+               { picArray.map(picArray => <img className="image_thumbnail" src={picArray}></img>)}
+                
             </div>
             <div className="details-container">
                <div className="details-title">Details </div>
                <div className="details-slots">
 
-                    <div className="slot-box">  1</div>
-                    <div className="slot-box">  2</div>
-                    <div className="slot-box">  3</div>
-                    <div className="slot-box">  4</div>
-                    <div className="slot-box">  5</div>
+                  { slot_icons.map(slot_icons => <div className="slot-box"> <img src={slot_icons}></img> 3 </div>     )   }
+
+                  
 
                </div>
             </div>
