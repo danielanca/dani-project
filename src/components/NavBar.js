@@ -5,8 +5,8 @@ function NavBar()
 {
         return(
 
-<           div className="cardcss centered">
-                <div class="logo-wrapper">  <img className="logo-front" src={logo}></img>  </div>
+            <div className="cardcss centered">
+                <div className="logo-wrapper">  <img className="logo-front" src={logo}></img>  </div>
                 <p className="nav_link"> NavLink </p>
                 <p className="nav_link "> NavLink </p>
                 <p className="nav_link"> NavLink </p>

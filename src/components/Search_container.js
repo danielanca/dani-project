@@ -1,6 +1,7 @@
 import arrow_down from '../media/arrow_down.png';
 import House_item from './House_item';
 import '../components/house_item.css';
+import importer_image from '../media/house_list/House_image_import.js';
 
 function Search_container()
 {
@@ -21,7 +22,8 @@ function Search_container()
                   <div className="search_type"> Price <img src={arrow_down}></img> </div>
                 </div>
                 <div className="grid_house">
-                    
+
+                     <importer_image>ABC </importer_image>
                     <House_item></House_item>
                     <House_item></House_item>
                     <House_item></House_item>
