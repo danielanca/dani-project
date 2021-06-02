@@ -36,3 +36,12 @@
     border: 3px solid green;
     /* padding: 10px; */
    };
+.logo-wrapper{
+    width: 100px;
+}
+
+.logo-front{
+    top: 5.2vh;
+    height: 1.3vw;
+    position: absolute;
+}

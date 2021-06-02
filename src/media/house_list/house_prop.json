@@ -1,0 +1,97 @@
+{
+    {
+    "house_id": "1",
+    "house_title": "Mansion",
+    "image_path": "house_1.png",
+    "slots" : [ 
+            "bed_rooms": "4",
+            "bathroom": "2",
+            "floor" : "3"
+        ],
+    
+    "phoneNumbers": [
+        { "type": "home", "number": "7383627627" }
+        ]
+    }
+
+     {
+    "house_id": "2",
+    "house_title": "Mansion",
+    "image_path": "house_2.png",
+    "slots" : [ 
+            "bed_rooms": "4",
+            "bathroom": "2",
+            "floor" : "3"
+        ],
+    
+    "phoneNumbers": [
+        { "type": "home", "number": "7383627627" }
+        ]
+    }
+
+
+     {
+    "house_id": "3",
+    "house_title": "Mansion",
+    "image_path": "house_3.png",
+    "slots" : [ 
+            "bed_rooms": "4",
+            "bathroom": "2",
+            "floor" : "3"
+        ],
+    
+    "phoneNumbers": [
+        { "type": "home", "number": "7383627627" }
+        ]
+    }
+
+
+     {
+    "house_id": "4",
+    "house_title": "Mansion",
+    "image_path": "house_4.png",
+    "slots" : [ 
+            "bed_rooms": "4",
+            "bathroom": "2",
+            "floor" : "3"
+        ],
+    
+    "phoneNumbers": [
+        { "type": "home", "number": "7383627627" }
+        ]
+    }
+
+
+ {
+    "house_id": "5",
+    "house_title": "Mansion",
+    "image_path": "house_5.png",
+    "slots" : [ 
+            "bed_rooms": "4",
+            "bathroom": "2",
+            "floor" : "3"
+        ],
+    
+    "phoneNumbers": [
+        { "type": "home", "number": "7383627627" }
+        ]
+    }
+
+     {
+    "house_id": "6",
+    "house_title": "Mansion",
+    "image_path": "house_6.png",
+    "slots" : [ 
+            "bed_rooms": "4",
+            "bathroom": "2",
+            "floor" : "3"
+        ],
+    
+    "phoneNumbers": [
+        { "type": "home", "number": "7383627627" }
+        ]
+    }
+
+}
+
+

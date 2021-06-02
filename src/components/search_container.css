@@ -9,17 +9,17 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-
     position: relative;
     margin: auto;
     top: 53vh;
     left: 1px;
+    width: 74vw;
  }
 
  .house{
-        border-color: 2px solid green;
-        color:black;
-        font-size: 2rem;
+    border-color: 2px solid green;
+    color:black;
+    font-size: 2rem;
  }
 
 .search_type{

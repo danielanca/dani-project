@@ -6,12 +6,12 @@ function NavBar()
         return(
 
 <           div className="cardcss centered">
-                <p className="logo_front" style= {{"--img":  `url(${logo})`}}> </p>
+                <div class="logo-wrapper">  <img className="logo-front" src={logo}></img>  </div>
                 <p className="nav_link"> NavLink </p>
                 <p className="nav_link "> NavLink </p>
                 <p className="nav_link"> NavLink </p>
                 <p className="nav_link"> NavLink </p>
-                <p className="orange_card "> Work with Us <p style= {{"--arrow_img":  `url(${arrow})`}}></p> </p>
+                <p className="orange_card "> Work with Us <img src={arrow}></img> </p>
             </div>
 
 
