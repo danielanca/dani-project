@@ -6,35 +6,33 @@
     width: 298px;
     height: 99px;
     left: 166px;
-    top: 262px;
+    top: 285px;
     mix-blend-mode: normal;
     opacity: 0.6;
-    font-size: 13px;
+    font-size: 14px;
     text-align: start;
 }
 .large{
-    font-size: 50px;
-    color:white;
+    font-size: 4vw;
+    color: white;
     font-family: DM Sans;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     text-align: left;
     line-height: 80px;
     letter-spacing: 0.78974px;
-    line-height: 61.1px;
-    margin-left:180px;
-    margin-top:100px;
+    line-height: 4.1vw;
+    margin-left: 180px;
+    margin-top: 100px;
 }
 .split_container {
     
-   
     border: 3px solid blue;
-
     position: absolute;
-    top:11px;
+    top: 4.2vw;
     height: 400px;
     width: 95%;
-    }
+}
     
     .div1 { grid-area: 1 / 1 / 5 / 3;
         border: 3px solid red;

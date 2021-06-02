@@ -41,6 +41,15 @@ function House_details()
 
                </div>
             </div>
+
+            <div className="description_House">
+              <div className="title-description"> <h2 className="title_desc"> Description</h2></div>
+              <div className="long-text"> <h3 className="full-text"> At vero eos et iusto odio dignissimos ducimus, qui haec putat, ut ipsi auctori huius disciplinae placet: constituam, quid sit numeranda nec me ab illo inventore veritatis et expedita distinctio nam libero tempore, cum memoriter, tum etiam ac ratione.
+
+Si sine metu degendae praesidia firmissima filium morte multavit si sine causa? quae fuerit causa, mox videro; interea hoc tenebo, si ob rem voluptas assumenda est, quid sit extremum et inter mediocrem animadversionem atque natum sit, a natura incorrupte.
+
+Omne animal, simul atque in sanguinem suum tam inportuno tamque crudeli; sin, ut earum motus et accusamus et argumentandum et dolore suo sanciret militaris imperii disciplinam exercitumque in liberos atque haec ratio late patet in quo pertineant non possim. </h3> </div>
+            </div>
        
             <div className="contact-form"> 
               <div className="view-profile">

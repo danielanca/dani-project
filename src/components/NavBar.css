@@ -1,0 +1,38 @@
+.orange_card{
+    font-weight: bold;
+    position: absolute;
+    left: 82.5vw;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #FFAC12;
+    border-radius: 0px 18px 0px 0px;
+    line-height: 35px;
+    background-image: var(--arrow_img);
+    background-repeat: no-repeat;
+}
+
+
+.nav_link{
+    color:white;
+    line-height:35px;
+    
+}
+.cardcss{
+   
+    position:absolute;
+    height: 70px;
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:  4fr 2fr 2fr 2fr 2fr 2fr;
+    border-radius: 20px;
+};
+
+
+.centered {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    /* padding: 10px; */
+   };

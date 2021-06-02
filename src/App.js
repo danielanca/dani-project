@@ -3,21 +3,19 @@ import ReactDOM from 'react-dom'
 import React from 'react'
 
 import './App.css';
-import Bodyground from './components/Bodyground.js';
-import './components/bodyground.css';
+import HomePage from './components/HomePage.js';
+import './components/HomePage.css';
 import House_details from './components/House_details';
 
 function App() {
   return (
     <div className="App">
-     
-        {/* <Bodyground>
-        
-        </Bodyground> */}
-
+     {/* First page */}
+        <HomePage> </HomePage> 
+{/* 
         <House_details>
 
-        </House_details>
+        </House_details> */}
       
     </div>
   );

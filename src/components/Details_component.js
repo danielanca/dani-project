@@ -9,7 +9,7 @@ function Details_component()
                 </div>
                 
                 <div className="div2"> 
-                    <div className="line-delimiter"> </div>
+                    <div className="detail-line-delimiter"> </div>
                     <h1 className="title_h1">You're in good hands</h1>
                     <h2 className="text_h2"> Torquatos nostros? quos dolores eos, qui dolorem ipsum per se texit, ne ferae quidem se repellere, idque instituit docere sic: omne animal, simul atque integre iudicante itaque aiunt hanc quasi involuta aperiri, altera occulta quaedam et voluptatem accusantium doloremque.</h2>
                 

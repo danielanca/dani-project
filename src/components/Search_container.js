@@ -6,10 +6,10 @@ function Search_container()
 {
     return(
 
-        <div className="srch_c">
+        
             <div className="container_section"> 
                 <div className="section1">
-                    <div className="line-delimiter"></div>
+                    <div className="line-delimiter pos-1"></div>
                     <div className="title_head">Find your next place to live</div>
                 </div>
                
@@ -31,7 +31,7 @@ function Search_container()
                    
                 </div>
             </div>
-        </div>
+        
 
     );
 
