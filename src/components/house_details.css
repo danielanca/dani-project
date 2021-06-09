@@ -198,6 +198,23 @@
     line-height: 22px;
     letter-spacing: -0.427179px;
 }
+.button-viewmore:hover{
+    background: #585858;
+    border-radius: 0px 18px 0px 0px;
+    height: 69px;
+
+    width: 274px;
+    margin: 10px;
+    position: relative;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+ 
+    line-height: 22px;
+    letter-spacing: -0.427179px;
+}
 .arrow-c{
     margin: 0px 14px;
 }
@@ -239,7 +256,9 @@
     width: 819px;
     height: 116px;
     border-radius: 15px;
-    margin-top:30px;
+    margin-top: 30px;
+    box-shadow: -8px 10px 24px rgb(0 0 0 / 13%);
+    border-radius: 25px;
 }
 
 .details-title{

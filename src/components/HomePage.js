@@ -1,5 +1,4 @@
-import header_background from '../media/header_pic.png';
-
+import React from 'react'
 import '../components/menu_header.css';
 import Menu_header from './Menu_header';
 
@@ -14,22 +13,17 @@ import '../components/testimonials.css';
 
 
 // First page
-function HomePage()
-{
-    
+var HomePage = () => {
     return(
           <div>
-          
-                
-                <Menu_header name="NavLink1"> </Menu_header>
-               
+             
+                  <Menu_header name="NavLink1"> </Menu_header>
+                  <Details_component></Details_component> 
+                  <Search_container></Search_container> 
+                  <Details_component></Details_component>  
+                  <End_Part></End_Part> 
+                  <Testimonials></Testimonials>  
               
-                <Details_component></Details_component> 
-                <Search_container></Search_container> 
-                 <Details_component></Details_component>  
-                {/* <End_Part></End_Part> 
-                <Testimonials></Testimonials>   */}
-          
           </div>
       
    

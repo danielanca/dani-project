@@ -1,14 +1,11 @@
-import bed from '../media/bed.png';
-import bed1 from '../media/bed.png';
-import bed2 from '../media/bed.png';
-import bed3 from '../media/bed.png';
-import bed4 from '../media/bed.png';
 
-export default [
-    bed,
-    bed1,
-    bed2,
-    bed3,
-    bed4
 
-];
+
+const slot_icons = {
+
+        bed_icon : require('../media/bed_icon1.png'),
+        bathroom_icon : require('../media/bed_icon2.png'),
+        floor_icon: require('../media/bed_icon3.png')
+}
+
+export default slot_icons;

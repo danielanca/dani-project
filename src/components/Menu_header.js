@@ -6,8 +6,7 @@ import NavBar from '../components/NavBar';
 import '../components/NavBar.css';
 
 
-function Menu_header(props)
-{
+var Menu_header = () => {
     return(
         <div className="header_h" style= {{"--img":  `url(${header_background})`}}>
             <NavBar></NavBar>

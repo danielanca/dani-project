@@ -4,7 +4,7 @@
     width: auto;
     border-color: 2px solid green;
 }
- .grid_house{
+ /* .grid_house{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -14,7 +14,7 @@
     top: 53vh;
     left: 1px;
     width: 74vw;
- }
+ } */
 
  .house{
     border-color: 2px solid green;

@@ -1,10 +1,7 @@
 
-
-function End_Part()
-{
+var End_Part = () => {  
 
     return(
-
             <div className="black_section">
                     <div className="line_design"></div>
                     <div className="white_text">You're in good hands</div>

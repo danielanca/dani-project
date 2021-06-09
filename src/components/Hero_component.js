@@ -1,7 +1,7 @@
 
 
+var Hero_component = () =>{  
 
-function Hero_component(props){
 
     return(
 

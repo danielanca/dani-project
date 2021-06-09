@@ -5,14 +5,15 @@ import arrow_right from '../media/arrow.png';
 import picArray from '../components/image_importer';
 import image_src from '../media/house_interior.png';
 import slot_icons from '../components/slot_icons_importer';
+import NavBar from '../components/NavBar';
 // Second page
-function House_details()
-{
-    
+var House_details = () => {    
+
     return(
       <div>
         <div className="house_detail_background">
-            <Menu_header></Menu_header>
+            {/* <Menu_header></Menu_header> */}
+            <NavBar>  </NavBar>
         </div>
         <div className="detail_header">
           <div className="left-wrapper">

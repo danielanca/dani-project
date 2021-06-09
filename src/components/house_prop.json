@@ -1,0 +1,65 @@
+{
+      "0": {
+        "id": "0",
+        "name": "Dani House",
+        "description": "Nice house, with ocean view",
+        "room_slots": "2",
+        "bath_rooms": "2",
+        "img_src": "house_1.png",
+        "floor": "2"
+
+      },
+      "1": {
+        "id": "1",
+        "name": "Cristi's House",
+        "description": "Cool house, 2 floors, with pool",
+        "room_slots": "3",
+        "bath_rooms": "2",
+        "img_src": "house_2.png",
+        "floor": "2"
+
+      },
+      "2": {
+        "id": "2",
+        "name": "NMCP Mansion",
+        "description": "View to the ocean, best place in town",
+        "room_slots": "3",
+        "bath_rooms": "2",
+        "img_src": "house_3.png",
+        "floor": "2"
+
+      },
+      "3": {
+        "id": "3",
+        "name": "Good Quality Mansion ",
+        "description": "Nice house, with ocean view",
+        "room_slots": "2",
+        "bath_rooms": "2",
+        "img_src": "house_1.png",
+        "floor": "2"
+
+      },
+      "4": {
+        "id": "4",
+        "name": "Angela Mansion",
+        "description": "Cool house, 2 floors, with pool",
+        "room_slots": "3",
+        "bath_rooms": "2",
+        "img_src": "house_2.png",
+        "floor": "2"
+
+      },
+      "5": {
+        "id": "5",
+        "name": "Dan Mansion",
+        "description": "View to the ocean, best place in town",
+        "room_slots": "3",
+        "bath_rooms": "2",
+        "img_src": "house_3.png",
+        "floor": "2"
+
+      }
+      
+
+
+  }

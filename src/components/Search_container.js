@@ -1,7 +1,6 @@
 import arrow_down from '../media/arrow_down.png';
-import House_item from './House_item';
-import '../components/house_item.css';
-import importer_image from '../media/house_list/House_image_import.js';
+
+import House_image_import from './House_image_import';
 
 function Search_container()
 {
@@ -23,13 +22,11 @@ function Search_container()
                 </div>
                 <div className="grid_house">
 
-                     <importer_image>ABC </importer_image>
-                    <House_item></House_item>
-                    <House_item></House_item>
-                    <House_item></House_item>
-                    <House_item></House_item>
-                    <House_item></House_item>
-                    <House_item></House_item>
+                     <House_image_import/>
+                    
+                     {/* { slot_icons.map(slot_icons => <div className="slot-box"> <img src={slot_icons}></img> 3 </div>     )   } */}
+
+                    
                    
                 </div>
             </div>

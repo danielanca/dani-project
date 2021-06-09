@@ -22,12 +22,12 @@
     object-fit: contain;
 }
 .house_title{
-    border:3px solid red;
-    font-size: 20px;
-    color:black;
-    text-align: left;
    
-    margin-left: 15px;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    margin: 6px;
+    margin-left: 13px;
         
 }
 .house_details{
@@ -37,18 +37,30 @@
 }
 
 .block_component{
+    border: 1px solid gray;
     color: black;
     font-size: 14px;
+    border-left-color: coral;
+    margin: 4px 0 3px;
 }
 
-/* .slot_icon{
-    background-image: var(--icon_slot);
+.house_list_wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+    top: 53vh;
+    left: 1px;
+    width: 74vw;
+};
+
+.leftcomp{
+    border-right-color: gray 1px solid ;
+};
+
+.rightcomp{
+    border-left-color: gray 1px solid;
 }
 
-.bath_icon{
-    background-image: var(--bath_slot);
-}
-
-.rooms_icon{
-    background-image: var(--rooms_slot);
-} */
