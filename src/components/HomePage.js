@@ -17,12 +17,12 @@ var HomePage = () => {
     return(
           <div>
              
-                  <Menu_header name="NavLink1"> </Menu_header>
-                  <Details_component></Details_component> 
-                  <Search_container></Search_container> 
-                  <Details_component></Details_component>  
-                  <End_Part></End_Part> 
-                  <Testimonials></Testimonials>  
+                   <Menu_header />
+                  <Details_component/> 
+                  <Search_container/> 
+                  <Details_component/>  
+                  <End_Part/> 
+                  <Testimonials/>
               
           </div>
       

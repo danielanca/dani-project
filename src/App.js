@@ -6,17 +6,20 @@ import './App.css';
 import HomePage from './components/HomePage.js';
 import './components/HomePage.css';
 import House_details from './components/House_details';
+import NavBar from './components/NavBar';
+import './components/NavBar.css';
+
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-
-        <Router>
-        {/* First page */}
-            {/* <HomePage> </HomePage>  */}
-
-        {/* Second page */}
-            <House_details> </House_details>
+          
+          <NavBar/>
+          
+          <Router>
+          
+           <Route path="/x" component={HomePage} />
+           <Route path="/details" component={House_details} />
         </Router>
     </div>
   );
