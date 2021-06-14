@@ -1,64 +1,168 @@
 {
-      "0": {
-        "id": "0",
-        "name": "Dani House",
-        "description": "Nice house, with ocean view",
-        "room_slots": "2",
-        "bath_rooms": "2",
-        "img_src": "house_1.png",
-        "floor": "2"
-
+  "0": {
+    "id": "0",
+    "name": "Heaven Mansion",
+    "street": "Aleea Maciesului nr32",
+    "price": "20000 €",
+    "price_squarefeet": "50 €",
+    "description": "Nice place to be with your loved ones",
+    "description_full": " This approach works when you understand your audience and what their biggest home search struggle is. Poll your current customers to get an idea of what they’re looking for and their expectations. You can group the responses into categories and then use the findings to design different listings. You can even use social media to track the kinds of comments your audience make or the questions they ask. ",
+    "room_slots": "3",
+    "bath_rooms": "2",
+    "img_src": "house_1.png",
+    "floor": "2",
+    "other_img":"no",
+    "garage": "1",
+    "data_fabrication": "2007",
+    "features": {
+        "Wifi": "yes",
+        "Television" : "yes",
+        "Radio": "yes",
+        "Ocean_view": "no"
       },
-      "1": {
-        "id": "1",
-        "name": "Cristi's House",
-        "description": "Cool house, 2 floors, with pool",
-        "room_slots": "3",
-        "bath_rooms": "2",
-        "img_src": "house_2.png",
-        "floor": "2"
-
-      },
-      "2": {
-        "id": "2",
-        "name": "NMCP Mansion",
-        "description": "View to the ocean, best place in town",
-        "room_slots": "3",
-        "bath_rooms": "2",
-        "img_src": "house_3.png",
-        "floor": "2"
-
-      },
-      "3": {
-        "id": "3",
-        "name": "Good Quality Mansion ",
-        "description": "Nice house, with ocean view",
-        "room_slots": "2",
-        "bath_rooms": "2",
-        "img_src": "house_1.png",
-        "floor": "2"
-
-      },
-      "4": {
-        "id": "4",
-        "name": "Angela Mansion",
-        "description": "Cool house, 2 floors, with pool",
-        "room_slots": "3",
-        "bath_rooms": "2",
-        "img_src": "house_2.png",
-        "floor": "2"
-
-      },
-      "5": {
-        "id": "5",
-        "name": "Dan Mansion",
-        "description": "View to the ocean, best place in town",
-        "room_slots": "3",
-        "bath_rooms": "2",
-        "img_src": "house_3.png",
-        "floor": "2"
+     "seller": {
+        "name": "Christian Maron",
+        "profile_pic": "profile_1.jpg"
 
       }
+   },
+      "1": {
+        "id": "1",
+        "name": "Bennder Mansion",
+        "street": "Aleea Saline nr32",
+        "price": "40000 €",
+        "price_squarefeet": "50 €",
+        "description": "View to the ocean, good food",
+        "description_full": "Part of the description in this listing includes the estimated mortgage of the property and a link to current lending rates. This offers value to customers and helps them during their decision-making process.This approach also positions you as knowledgeable of the industry and trends. Chances are prospective buyers will want to know more. Use the rest of your description for the details behind the statistic or fact and tie it back to the house you’re listing.",
+        "room_slots": "3",
+        "bath_rooms": "2",
+        "img_src": "house_2.png",
+        "floor": "2",
+        "other_img":"no",
+        "garage": "1",
+        "data_fabrication": "2012",
+        "features": {
+            "Wifi": "yes",
+            "Television" : "yes",
+            "Radio": "yes",
+            "Ocean_view": "no"
+          },
+          "seller": {
+             "name": "Banny",
+             "profile_pic": "profile_1.jpg"
+     
+           }
+       },
+      "2": {
+        "id": "2",
+        "name": "Lotss Mansion",
+        "street": "Aleea Maciesului nr32",
+        "price": "20000 €",
+        "price_squarefeet": "50 €",
+        "description": "Best place for sure, come and see",
+        "description_full": " One surefire way to get people to stop and read your listings is to choose words to show in bold type throughout your copy. Bold fonts convey power and offer a contrast to the rest of the text. ",
+        "room_slots": "3",
+        "bath_rooms": "2",
+        "img_src": "house_3.png",
+        "floor": "2",
+        "other_img":"no",
+        "garage": "1",
+        "data_fabrication": "2017",
+        "features": {
+            "Wifi": "yes",
+            "Television" : "yes",
+            "Radio": "yes",
+            "Ocean_view": "no"
+          },
+          "seller": {
+             "name": "Christian Albert",
+             "profile_pic": "profile_1.jpg"
+     
+           }
+       },
+
+
+       "3": {
+        "id": "3",
+        "name": "ThatGreat Mansion",
+        "street": "Aleea Maciesului nr32",
+        "price": "20000 €",
+        "price_squarefeet": "50 €",
+        "description": "Cool view bro, no questions added",
+        "description_full": "But the truth is, this approach has the opposite effect on readers. They tune out because the text doesn’t sound like a person talking to another person.",
+        "room_slots": "3",
+        "bath_rooms": "2",
+        "img_src": "house_4.png",
+        "floor": "2",
+        "other_img":"no",
+        "garage": "1",
+        "data_fabrication": "2012",
+        "features": {
+            "Wifi": "yes",
+            "Television" : "no",
+            "Radio": "yes",
+            "Ocean_view": "no"
+          },
+          "seller": {
+             "name": "Mandy Henn",
+             "profile_pic": "profile_2.jpg"
+     
+           }
+       },
+       "4": {
+        "id": "4",
+        "name": "Forty Mansion",
+        "street": "Aleea Maciesului nr32",
+        "price": "24000 €",
+        "price_squarefeet": "20 €",
+        "description": "View to the ocean, best place in town",
+        "description_full": "But the truth is, this approach has the opposite effect on readers. They tune out because the text doesn’t sound like a person talking to another person.",
+        "room_slots": "3",
+        "bath_rooms": "2",
+        "img_src": "house_5.png",
+        "floor": "2",
+        "other_img":"no",
+        "garage": "1",
+        "data_fabrication": "2021",
+        "features": {
+            "Wifi": "yes",
+            "Television" : "no",
+            "Radio": "yes",
+            "Ocean_view": "yes"
+          },
+          "seller": {
+             "name": "Elizabeth Glenny",
+             "profile_pic": "profile_4.jpg"
+     
+           }
+       },
+       "5": {
+        "id": "5",
+        "name": "Graby Mansion",
+        "street": "Aleea Madrid nr32",
+        "price": "42000 €",
+        "price_squarefeet": "30 €",
+        "description": "Nice place, heaven ocean",
+        "description_full": "But the truth is, this approach has the opposite effect on readers. They tune out because the text doesn’t sound like a person talking to another person.",
+        "room_slots": "1",
+        "bath_rooms": "4",
+        "img_src": "house_6.png",
+        "floor": "2",
+        "other_img":"no",
+        "garage": "1",
+        "data_fabrication": "2007",
+        "features": {
+            "Wifi": "yes",
+            "Television" : "no",
+            "Radio": "yes",
+            "Ocean_view": "no"
+          },
+          "seller": {
+             "name": "Jonny Bagy",
+             "profile_pic": "profile_2.jpg"
+     
+           }
+       }
       
 
 

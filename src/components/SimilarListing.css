@@ -1,0 +1,23 @@
+
+.similar_section{
+    border: chartreuse solid 3px;
+    height: 34vw;
+    width: 100vw;
+}
+
+.linear-line{
+        background: linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
+    border-radius: 2px;
+    width: 7.6vw;
+    height: 0.4vw;
+}
+.headerLine{
+    color: black;
+    font-size: 2vw;
+    text-align: left;
+}
+.listing-header{
+    margin: auto;
+    width: 57vw;
+    margin-top: 5vw;
+}

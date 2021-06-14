@@ -1,4 +1,4 @@
-.orange_card{
+.work_but{
     font-weight: bold;
     position: absolute;
     left: 82.5vw;
@@ -20,12 +20,13 @@
 }
 .cardcss{
    
-    position:absolute;
+    position: absolute;
+    z-index: 1;
     height: 70px;
     width: 95%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns:  4fr 2fr 2fr 2fr 2fr 2fr;
+    grid-template-columns: 4fr 2fr 2fr 2fr 2fr 2fr;
     border-radius: 20px;
 };
 
@@ -36,9 +37,6 @@
     border: 3px solid green;
     /* padding: 10px; */
    };
-.logo-wrapper{
-    width: 100px;
-}
 
 .logo-front{
     top: 5.2vh;

@@ -1,17 +1,18 @@
-import logo from '../media/logo.png';
-import arrow from '../media/Path.png';
 
+import arrow from '../media/Path.png';
+import Logo from '../components/Logo';
 function NavBar()
 {
         return(
 
             <div className="cardcss centered">
-                <div className="logo-wrapper">  <img className="logo-front" src={logo}></img>  </div>
+                
+                <Logo/>
                 <p className="nav_link"> NavLink </p>
                 <p className="nav_link "> NavLink </p>
                 <p className="nav_link"> NavLink </p>
                 <p className="nav_link"> NavLink </p>
-                <p className="orange_card "> Work with Us <img src={arrow}></img> </p>
+                <p className="work_but"> Work with Us <img src={arrow}></img> </p>
             </div>
 
 

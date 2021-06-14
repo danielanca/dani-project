@@ -9,7 +9,7 @@ import '../components/NavBar.css';
 var Menu_header = () => {
     return(
         <div className="header_h" style= {{"--img":  `url(${header_background})`}}>
-            <NavBar></NavBar>
+            
             <Hero_component title="Beautiful homes made for you"> </Hero_component>
          </div>
       

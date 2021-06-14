@@ -7,7 +7,7 @@ import room from '../media/Shape.png';
 import houseimage from '../media/house_list/house_list';
 
 import slot_icons from '../components/slot_icons_importer';
-
+import { useParams } from 'react-router-dom';
 function click_me() {
 
      console.log("That dude clicked me!");
@@ -15,7 +15,8 @@ function click_me() {
 
 var House_item = (props) => {  
 
-   let data = props.data_in;
+    const {params} = useParams();
+    let data = props.data_in;
     
     return(
 

@@ -2,10 +2,10 @@
     
     background-color: #F2F2F2;
     /* border: 9px dotted red; */
-    height: 868px;
+    height: 43vw;
     width: 100vw;
     display: flex;
-    position: absolute;
+    position: relative;
 }
 
 .testimonial-line{

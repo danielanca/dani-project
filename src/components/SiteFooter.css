@@ -1,0 +1,41 @@
+.footer_component{
+    background-color: black;
+    width: 99vw;
+    height: 48vw;
+}
+.footer_titleText{
+    color: white;
+    font-size: 2.6vw;
+    width: 85vw;
+    position: relative;
+    top: 10vw;
+    left: -18vw;
+}
+
+.work_with_us{
+
+}
+
+.social_icons{
+
+    border: blue 3px solid;
+    width: 15vw;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: 1.2vw auto;
+    position: relative;
+
+}
+.orangeclr{
+    color:orange;
+}
+.footer-wrapper{
+    height: 200px;
+    width: 20vw;
+    border: 3px solid green;
+    position: relative;
+    top: 14vw;
+    left: 6vw;
+}

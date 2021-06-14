@@ -10,19 +10,20 @@ import End_Part from './End_Part';
 import '../components/End_Part.css';
 import Testimonials from './Testimonials';
 import '../components/testimonials.css';
-
+import SiteFooter from './SiteFooter';
 
 // First page
 var HomePage = () => {
     return(
           <div>
              
-                   <Menu_header />
+                  <Menu_header />
                   <Details_component/> 
                   <Search_container/> 
                   <Details_component/>  
                   <End_Part/> 
                   <Testimonials/>
+                  <SiteFooter/>
               
           </div>
       

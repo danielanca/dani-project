@@ -1,0 +1,26 @@
+.list-item{
+    color:white;
+    /* border: 3px solid white; */
+    list-style-type: none;
+}
+
+.text-list{
+    color: gainsboro;
+    font-weight: 300;
+    font-size: 1.1vw;
+}
+
+ul{
+    width: 17vw;
+    margin: auto;
+    padding: 1.2vw;
+}
+
+.column-header{
+    font-size: medium;
+    color: white;
+}
+
+.list_component{
+    /* border:3px solid green; */
+}

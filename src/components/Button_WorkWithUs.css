@@ -1,0 +1,38 @@
+.work_with_us{
+    font-weight: bold;
+    position: relative;
+    left: 22.5vw;
+    right: 0%;
+    top: 4.4vw;
+    bottom: 0%;
+    background: #FFAC12;
+    border-radius: 0px 18px 0px 0px;
+    line-height: 35px;
+    background-image: var(--arrow_img);
+    background-repeat: no-repeat;
+    height: 4vw;
+    width: 12vw;
+    border-color: transparent;
+    
+}
+.work_with_us:hover{
+    font-weight: bold;
+    position: relative;
+    left: 22.5vw;
+    right: 0%;
+    top: 4.4vw;
+    bottom: 0%;
+    background: #eece93;
+    border-radius: 0px 18px 0px 0px;
+    line-height: 35px;
+    background-image: var(--arrow_img);
+    background-repeat: no-repeat;
+    height: 4vw;
+    width: 12vw;
+    
+}
+
+
+.orange_card{
+    margin: auto;
+}

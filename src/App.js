@@ -8,19 +8,30 @@ import './components/HomePage.css';
 import House_details from './components/House_details';
 import NavBar from './components/NavBar';
 import './components/NavBar.css';
-
+import SiteFooter from './components/SiteFooter';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 function App() {
+  
+  let house_id = 1;
   return (
     <div className="App">
           
-          <NavBar/>
+          {/* <NavBar/> */}
           
+          {/* <WorkArea></WorkArea> */}
+          {/* <SiteFooter/> */}
+
+         
           <Router>
-          
+            {/* <Route path="/work" component={WorkArea}> </Route> */}
            <Route path="/x" component={HomePage} />
-           <Route path="/details" component={House_details} />
+           <Route path="/details/:id">
+            <House_details/>
+           </Route>
+            
+         
         </Router>
+
     </div>
   );
 }
