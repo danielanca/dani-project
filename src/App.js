@@ -20,11 +20,14 @@ function App() {
           
           {/* <WorkArea></WorkArea> */}
           {/* <SiteFooter/> */}
-
+          {/* <HomePage/> */}
          
-          <Router>
+          <Router  >
             {/* <Route path="/work" component={WorkArea}> </Route> */}
-           <Route path="/x" component={HomePage} />
+           
+          
+           <Route path="/home" component={HomePage} />
+
            <Route path="/details/:id">
             <House_details/>
            </Route>

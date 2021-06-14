@@ -1,26 +1,25 @@
 
-import houseIMG from '../media/house1.png';
-
-import bed from '../media/room.png';
-import room from '../media/Shape.png';
 
 import houseimage from '../media/house_list/house_list';
 
 import slot_icons from '../components/slot_icons_importer';
-import { useParams } from 'react-router-dom';
-function click_me() {
+import { Link } from 'react-router-dom';
 
-     console.log("That dude clicked me!");
+const click_me = (data_in) => (event) => {
+
+     console.log("You selected house:"+ data_in.name);
+     window.location.assign(window.location.origin+"/details/"+data_in.id);
 }
 
 var House_item = (props) => {  
 
-    const {params} = useParams();
+    
     let data = props.data_in;
     
     return(
 
-        <div onClick={click_me} className="house_item_component">
+        // <Link to="/details/" className="linkstyle" >
+        <div onClick={click_me(data)} className="house_item_component">
           
             <div className="house_image">  <img height="190px" src={houseimage[data.id]}></img> </div> 
             <div className="house_title"> {data.name} </div>
@@ -31,7 +30,7 @@ var House_item = (props) => {
                 <div className="block_component rightcomp" ><img height="15px" src={slot_icons.floor_icon.default}></img></div>
             </div>
         </div>
-
+        // </Link>
 
     );
 }

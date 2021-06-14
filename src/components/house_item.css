@@ -14,6 +14,10 @@
      margin: 10px 40px;
 }   
 
+.house_item_component:hover{
+    cursor: pointer;
+}
+
 .house_image{
     /* border: 3px solid chocolate; */
     background-image: var(--houseimg);
@@ -64,3 +68,6 @@
     border-left-color: gray 1px solid;
 }
 
+.linkstyle{
+    text-decoration: none;
+}

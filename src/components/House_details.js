@@ -12,10 +12,12 @@ import {
 // Second page
 var House_details = (param) => {    
   
-   const { id } = useParams()
+ 
+  const { id } = useParams()
   let house_data = require('../components/house_prop.json');
-
-    return(
+  window.scrollTo(0, 0); 
+   
+  return(
       <div>
         <div className="house_detail_background">
            

@@ -11,12 +11,13 @@ import '../components/End_Part.css';
 import Testimonials from './Testimonials';
 import '../components/testimonials.css';
 import SiteFooter from './SiteFooter';
+import NavBar from './NavBar';
 
 // First page
 var HomePage = () => {
     return(
           <div>
-             
+                  <NavBar/>
                   <Menu_header />
                   <Details_component/> 
                   <Search_container/> 
