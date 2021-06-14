@@ -1,4 +1,4 @@
-
+import './End_Part.css';
 var End_Part = () => {  
 
     return(

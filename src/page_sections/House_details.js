@@ -1,8 +1,11 @@
-import HouseDetail_header from './HouseDetail_header';
-import HouseDetail_container from './HouseDetail_container';
-import SiteFooter from './SiteFooter';
-import SimilarListing from './SimilarListing';
-import NavBar from './NavBar';
+import HouseDetail_header from '../components/HouseDetail_header';
+import HouseDetail_container from '../components/HouseDetail_container'
+import SiteFooter from '../components/SiteFooter';
+import SimilarListing from '../components/SimilarListing';
+import NavBar from '../components/NavBar';
+import './house_details.css';
+
+
 import {
   BrowserRouter as Router,
   Link,
@@ -21,7 +24,7 @@ var House_details = (param) => {
       <div>
         <div className="house_detail_background">
            
-            <NavBar>  </NavBar>
+            <NavBar/>
         </div>
 
         <HouseDetail_header house_data = {house_data[id]}/>  

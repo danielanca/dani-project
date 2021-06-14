@@ -1,6 +1,7 @@
 
 import arrow from '../media/Path.png';
 import Logo from '../components/Logo';
+import './NavBar.css';
 function NavBar()
 {
         return(

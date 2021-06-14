@@ -1,6 +1,6 @@
 import details_img from '../media/details_image.png';
 import click_arrow from '../media/arrow.png';
-
+import './details_component.css';
 function Details_component()
 {
     return(

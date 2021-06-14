@@ -45,11 +45,11 @@
 
 .rectangle-listing{
     position: relative;
-    width: 672px;
-    height: 101px;
+    width: 52vw;
+    height: 6vw;
     opacity: 5.6;
     background-color: white;
-    margin: 100px auto;
+    margin: 60px auto;
 }
 
 .listings-text{

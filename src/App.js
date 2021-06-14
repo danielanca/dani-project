@@ -3,12 +3,8 @@ import ReactDOM from 'react-dom'
 import React from 'react'
 
 import './App.css';
-import HomePage from './components/HomePage.js';
-import './components/HomePage.css';
-import House_details from './components/House_details';
-import NavBar from './components/NavBar';
-import './components/NavBar.css';
-import SiteFooter from './components/SiteFooter';
+import HomePage from './page_sections/HomePage';
+import House_details from './page_sections/House_details';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 function App() {
   
@@ -16,23 +12,15 @@ function App() {
   return (
     <div className="App">
           
-          {/* <NavBar/> */}
-          
-          {/* <WorkArea></WorkArea> */}
-          {/* <SiteFooter/> */}
-          {/* <HomePage/> */}
          
-          <Router  >
-            {/* <Route path="/work" component={WorkArea}> </Route> */}
-           
-          
-           <Route path="/home" component={HomePage} />
-
-           <Route path="/details/:id">
-            <House_details/>
-           </Route>
+          <Router>
             
-         
+            <Route path="/home" component={HomePage} />
+
+            <Route path="/details/:id">
+                  <House_details/>
+            </Route>
+            
         </Router>
 
     </div>

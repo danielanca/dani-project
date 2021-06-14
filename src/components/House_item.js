@@ -3,7 +3,7 @@
 import houseimage from '../media/house_list/house_list';
 
 import slot_icons from '../components/slot_icons_importer';
-import { Link } from 'react-router-dom';
+
 
 const click_me = (data_in) => (event) => {
 
@@ -18,7 +18,7 @@ var House_item = (props) => {
     
     return(
 
-        // <Link to="/details/" className="linkstyle" >
+
         <div onClick={click_me(data)} className="house_item_component">
           
             <div className="house_image">  <img height="190px" src={houseimage[data.id]}></img> </div> 
@@ -30,7 +30,7 @@ var House_item = (props) => {
                 <div className="block_component rightcomp" ><img height="15px" src={slot_icons.floor_icon.default}></img></div>
             </div>
         </div>
-        // </Link>
+
 
     );
 }

@@ -1,0 +1,14 @@
+
+
+.menu_header{
+    
+    position: absolute;
+    border: 6px solid blue;
+    width: auto;
+    height: 100px;
+   
+};
+
+.full_wrap{
+    display: flex;
+}

@@ -1,8 +1,6 @@
 
-
+import './Hero_component.css';
 var Hero_component = () =>{  
-
-
     return(
 
         <div className="split_container">

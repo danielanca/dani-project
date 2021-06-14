@@ -1,6 +1,6 @@
 
 import profile_picture from '../media/Oval.png';
-
+import './testimonials.css';
 function Testimonials()
 {
     return(

@@ -1,11 +1,9 @@
 .house_item_component{
      color:green;
      font-size: 2rem;
-     /* display: grid; */
      order:2;
      grid-template-rows: 5fr 3fr 1fr;
      margin:0px;
-     /* border: dotted 3px green; */
      width: 250px;
 
      border-radius: 25px;
@@ -19,7 +17,7 @@
 }
 
 .house_image{
-    /* border: 3px solid chocolate; */
+
     background-image: var(--houseimg);
     background-repeat: no-repeat;
     border-radius: inherit;
@@ -35,7 +33,7 @@
         
 }
 .house_details{
-    /* border:3px solid blueviolet; */
+ 
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
 }

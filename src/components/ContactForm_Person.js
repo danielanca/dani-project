@@ -1,8 +1,7 @@
 
-import './house_details.css';
-
 import contact_profile_pic from '../media/avatar.png'
 import arrow_right from '../media/arrow.png';
+import './ContactForm_Person.css';
 var ContactForm_Person = (props) =>{
 
   let person_data = props.person_data;

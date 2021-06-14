@@ -1,10 +1,9 @@
 
 import header_background from '../media/header_pic.png';
-import Hero_component from './Hero_component';
-import '../components/Hero_component.css';
-import NavBar from '../components/NavBar';
-import '../components/NavBar.css';
 
+import Hero_component from './Hero_component';
+
+import './menu_header.css';
 
 var Menu_header = () => {
     return(
