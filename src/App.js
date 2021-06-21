@@ -15,7 +15,7 @@ function App() {
          
           <Router>
             
-            <Route path="/home" component={HomePage} />
+            <Route path="/home" component= {HomePage} />
 
             <Route path="/details/:id">
                   <House_details/>
