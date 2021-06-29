@@ -11,10 +11,11 @@
     width: 7.6vw;
     height: 0.4vw;
 }
-.headerLine{
+.headerLine {
     color: black;
     font-size: 2vw;
     text-align: left;
+    width: 57vw;
 }
 .listing-header{
     margin: auto;

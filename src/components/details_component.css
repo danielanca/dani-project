@@ -1,4 +1,15 @@
-
+.details_background{
+   
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 134vh;
+    padding: 10px;
+    border: 2px solid red;
+    margin: 0;
+    background-size: cover;
+    background-color: aliceblue;
+}; 
 .component_background{
 
     display: flex;
@@ -24,18 +35,15 @@
     width: 50%;
 }
 
-.detail-line-delimiter{
-    border-radius: 2px;
-    left: 4vw;
-    top: 6.3vw;
-    height: 0.3vw;
-    width: 14.7vw;
+.detail-line-delimiter {
+
+    bottom: 1vw;
+    height: 6px;
+    width: 11.7vw;
     position: relative;
     background: linear-gradient(
 90deg
 , #FFAC12 0%, #000000 94.96%);
-   
-
 }
 
 .title_h1{
@@ -59,20 +67,19 @@
     font-weight: 400;
 }
 
-.button_atr{
+.button_atr {
     background-color: black;
     color: white;
     text-align: start;
     font-size: 1rem;
     font-weight: 400;
     border-radius: 0 20px 0 0;
-    height: 4vw;
+    height: 56px;
     width: 14vw;
     position: relative;
-    top: 17.4vh;
-    left: -11vw;
-   
-    
+    /* top: 17.4vh; */
+    left: -10vw;
+    justify-content: flex-start;
 }
 .clickarrow{
     background-image: var(--click_arrow);
@@ -81,4 +88,8 @@
     position: relative;
     height: 10px;
     width: auto;
+}
+
+.custom-dim{
+    width: 25vw;
 }

@@ -1,8 +1,5 @@
 .detail_header{
     background-color: black;
-    height: 7vw;
-    width: 100%;
-    
 }
 
 .text-h{
@@ -11,7 +8,6 @@
     font-weight: bold;
     font-size: 32px;
     line-height: 42px;
-    /* identical to box height */
     letter-spacing: -0.804102px;
     color: #FFFFFF;
 }
@@ -22,7 +18,7 @@
     font-weight: normal;
     font-size: 15px;
     line-height: 24px;
-    /* identical to box height, or 160% */
+
 
     letter-spacing: -0.376923px;
     color: #FFFFFF;
@@ -30,44 +26,38 @@
     opacity: 0.6;
 }
 
-.text-price{
+.text-price {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    padding-right: 11rem;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: right;
+    letter-spacing: -0.804102px;
+    color: #FFFFFF;
+}
+.text-msquare {
     font-family: DM Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
+    padding-right: 11rem;
     line-height: 42px;
-    /* identical to box height */
-
     text-align: right;
     letter-spacing: -0.804102px;
     color: #FFFFFF;
 }
 
-.text-msquare{
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 42px;
-    /* identical to box height */
-
-    text-align: right;
-    letter-spacing: -0.804102px;
-
-    color: #FFFFFF;
-}
-
-.card_template{
+.card_template {
     display: flex;
     flex-direction: column;
     background: #FFFFFF;
     box-shadow: 0px 32px 34px rgb(0 0 0 / 13%);
     border-radius: 25px;
     margin-top: 30px;
-    width: 816px;
-    height: auto;
-}
 
+}
 .features-list{
     position: relative;
     list-style-type: none;

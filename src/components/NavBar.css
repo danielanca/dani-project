@@ -1,15 +1,10 @@
 .work_but{
-    font-weight: bold;
-    position: absolute;
-    left: 82.5vw;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
+
+    font-weight: bolder;
     background: #FFAC12;
     border-radius: 0px 18px 0px 0px;
     line-height: 35px;
-    background-image: var(--arrow_img);
-    background-repeat: no-repeat;
+
 }
 
 
@@ -43,4 +38,58 @@
     top: 5.2vh;
     height: 1.3vw;
     position: absolute;
+}
+
+.navbar-container{
+    height: 90px;
+    width: 95vw;
+    margin: auto auto auto 2vw;
+    position: absolute;
+
+    z-index: 1;
+    padding: auto;
+
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-bottom: .3125rem;
+    margin-right: 0rem;
+    margin-left: 10rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.bg-transparent{
+    background-color: transparent;
+}
+
+.text-white{
+    color:white;
+}
+.text-black{
+    color: black;
+}
+
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    width: 45vw;
+}
+@media (min-width: 992px){
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 3.5rem;
+        padding-left: 2.5rem;
+    }
+}
+
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.2rem 1rem;
 }

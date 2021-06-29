@@ -1,27 +1,26 @@
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./HouseDetail_header.css";
 
-import './HouseDetail_header.css';
-
-var HouseDetail_header = (props) => {
-
+const HouseDetail_header = (props) => {
     let data_in = props.house_data;
 
-    return(
+    return (
+        <div className="container-fluid p-3 detail_header">
+            <div className="row">
+                <div className="col-6">
+                    <div className="text-h ">{data_in.name}</div>
+                    <div className="text-small">{data_in.description}</div>
+                </div>
 
-        <div className="detail_header">
-        <div className="left-wrapper">
-          <div className="text-h">{data_in.name}</div>
-          <div className="text-small">{data_in.description}</div>
+                <div className="col-6">
+                    <div className="text-price">{data_in.price}</div>
+                    <div className="text-msquare">
+                        {data_in.price_squarefeet}/sq ft
+                    </div>
+                </div>
+            </div>
         </div>
-        <div className="right-wrapper">
-          <div className="text-price">{data_in.price}</div>
-          <div className="text-msquare">{data_in.price_squarefeet}/sq ft</div>
-        </div>
-      </div>
-
-
     );
+};
 
-
-    }
-
-    export default HouseDetail_header;
+export default HouseDetail_header;

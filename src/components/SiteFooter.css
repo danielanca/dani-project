@@ -3,18 +3,12 @@
     width: 99vw;
     height: 48vw;
 }
-.footer_titleText{
+.footer_titleText {
     color: white;
     font-size: 2.6vw;
-    width: 85vw;
-    position: relative;
-    top: 10vw;
-    left: -18vw;
+    padding: 5vw;
 }
 
-.work_with_us{
-
-}
 
 .social_icons{
 
@@ -38,4 +32,13 @@
     position: relative;
     top: 14vw;
     left: 6vw;
+}
+
+.border-color{
+    border: red solid 3px;
+}
+
+.space-gap-footer{
+
+    /* height: 50px; */
 }

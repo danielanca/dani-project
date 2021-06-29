@@ -1,20 +1,14 @@
+import "./FooterList.css";
+import ListContainer from "./ListContainer";
 
-import './FooterList.css';
-import ListContainer from './ListContainer';
-var FooterList = () => {
-
-        return (
-
-           
-            <div className="list-wrapper">
-                 <ListContainer/>
-                 <ListContainer/>
-                 <ListContainer/>  
-            </div>
-
-
-        );
-
-}
+const FooterList = () => {
+    return (
+        <div className="list-wrapper">
+            <ListContainer />
+            <ListContainer />
+            <ListContainer />
+        </div>
+    );
+};
 
 export default FooterList;

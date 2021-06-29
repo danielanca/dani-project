@@ -46,7 +46,7 @@
     margin: 4px 0 3px;
 }
 
-.house_list_wrapper{
+.house_list_wrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -54,9 +54,10 @@
     position: relative;
     margin: auto;
     top: 2vh;
+    margin-bottom: 8rem;
     left: 1px;
     width: 74vw;
-};
+}
 
 .leftcomp{
     border-right-color: gray 1px solid ;

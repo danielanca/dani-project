@@ -20,13 +20,11 @@
 .arrow-c{
     margin: 0px 14px;
 }
+.imagePreviewFull {
 
-.imagePreviewFull{
-     
-        height: auto;
-        width: 814px;
-        margin-top: 4vw;
-        position: relative;
+    width: 80%;
+    margin-top: 4vw;
+    position: relative;
 }
 
 .big-wrapper{
@@ -46,21 +44,20 @@
     justify-content: space-evenly;
     align-items: center;
     height: 135px;
-    width: 819px;
+
     border: 3px solid green;
     border-radius: 12px;
     margin-top: 30px;
     
 }
 
-.details-container{
+.details-container {
     background-color: white;
-    width: 819px;
     height: 116px;
     border-radius: 15px;
     margin-top: 30px;
     box-shadow: -8px 10px 24px rgb(0 0 0 / 13%);
-    border-radius: 25px;
+
 }
 
 .details-title{
@@ -107,7 +104,7 @@
         box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.133714);
         border-radius: 25px;
         margin-top: 30px;
-        width: 816px;
+
 }
 
 .title-description{

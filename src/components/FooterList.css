@@ -1,11 +1,8 @@
-.list-wrapper{
+.list-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
     width: 67vw;
-    border: 3px red solid;
-    position: relative;
-    left: 27vw;
-    top: -1vw;
+
 }
