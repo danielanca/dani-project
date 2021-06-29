@@ -1,0 +1,37 @@
+.details-container {
+    background-color: white;
+    height: 116px;
+    border-radius: 15px;
+    margin-top: 30px;
+    box-shadow: -8px 10px 24px rgb(0 0 0 / 13%);
+
+}
+
+.details-title{
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 89px;
+    font-weight: 700;
+}
+
+.details-slots{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    font-size: 17px;
+    border-top: 1px rgb(165, 161, 161) solid;
+        
+}
+.slot-box{
+    height: 30px;
+    width: 50px;
+    border-right-color: 1px red;
+    margin-top: 1vw;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,26 @@
+.orange_back{
+
+    font-weight: bolder;
+    background: #FFAC12;
+    border-radius: 0px 18px 0px 0px;
+    line-height: 35px;
+
+}
+.text-white{
+    color:white;
+}
+.text-black{
+    color: black;
+}
+
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    width: 45vw;
+}
+@media (min-width: 992px){
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 3.5rem;
+        padding-left: 2.5rem;
+    }
+}

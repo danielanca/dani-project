@@ -6,7 +6,6 @@
 .left-wrapper{
     position: absolute;
     width: 42vw;
-
 }
 
 .right-wrapper{
@@ -15,8 +14,6 @@
     right: 11vw;
 
 }
-
-
 .arrow-c{
     margin: 0px 14px;
 }
@@ -51,45 +48,6 @@
     
 }
 
-.details-container {
-    background-color: white;
-    height: 116px;
-    border-radius: 15px;
-    margin-top: 30px;
-    box-shadow: -8px 10px 24px rgb(0 0 0 / 13%);
-
-}
-
-.details-title{
-    font-size: 20px;
-    margin-top: 20px;
-    text-align: left;
-    margin-left: 89px;
-    font-weight: 700;
-}
-
-.details-slots{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 20px;
-    position: relative;
-    text-align: center;
-    font-size: 17px;
-    border-top: 1px rgb(165, 161, 161) solid;
-        
-}
-
-.slot-box{
-    height: 30px;
-    width: 50px;
-    border-right-color: 1px red;
-    margin-top: 1vw;
-    display: flex;
-    align-items: center;
-}
-
 .gap{
     margin:auto;
 }
@@ -97,63 +55,7 @@
 .image_thumbnail{
     height: 100px;
 }
-.description_House{
-        display: flex;
-        flex-direction: column;
-        background: #FFFFFF;
-        box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.133714);
-        border-radius: 25px;
-        margin-top: 30px;
 
-}
-
-.title-description{
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 26px;
-    letter-spacing: -0.502564px;
-    color: #000000;
-    
-    width: 814px;
-    height: 104px;
-}
-
-.long-text{
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 22px;
-    letter-spacing: -0.376923px;
-    color: #000000;
-    mix-blend-mode: normal;
-    opacity: 0.6;
-    border-top: 1px rgb(165, 161, 161) solid;
-    height: auto;
-}
-
-.title_desc{
-    margin-left: 39px;
-    text-align: start;
-    margin-top: 41px;
-    font-size: 28px;
-}
-
-.full-text{
-    text-align: left;
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 22px;
-    letter-spacing: -0.376923px;
-    color: #000000;
-    mix-blend-mode: normal;
-    opacity: 10.6;
-    margin: 35px;
-}
 
 .orange_icon{
     width: 13px;

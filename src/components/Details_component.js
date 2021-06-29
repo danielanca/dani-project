@@ -1,7 +1,8 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./details_component.css";
+import Push_Button from "./Push_Button";
 import details_img from "../media/details_image.png";
-import click_arrow from "../media/arrow.png";
+
 import header_background from "../media/header_pic.png";
 
 const Details_component = () => {
@@ -23,16 +24,7 @@ const Details_component = () => {
                             extensive prebuilt components, and powerful
                             JavaScript plugins.
                         </p>
-                        <button className="button_atr">
-                            {" "}
-                            CLICK HERE{" "}
-                            <div
-                                className="clickarrow"
-                                style={{
-                                    "--click_arrow": `url(${click_arrow})`,
-                                }}
-                            ></div>{" "}
-                        </button>
+                        <Push_Button text="Click Here" />
                         <div className="d-grid gap-2 d-md-flex justify-content-md-start">
                             {" "}
                         </div>

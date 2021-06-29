@@ -1,0 +1,56 @@
+.description_House{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.133714);
+    border-radius: 25px;
+    margin-top: 30px;
+
+}
+
+.title-description{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.502564px;
+    color: #000000;
+    
+    width: 814px;
+    height: 104px;
+}
+.long-text{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.376923px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    border-top: 1px rgb(165, 161, 161) solid;
+    height: auto;
+}
+
+.title_desc{
+    margin-left: 39px;
+    text-align: start;
+    margin-top: 41px;
+    font-size: 28px;
+}
+
+.full-text{
+    text-align: left;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.376923px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 10.6;
+    margin: 35px;
+}

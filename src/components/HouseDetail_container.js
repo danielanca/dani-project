@@ -1,10 +1,10 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-
 import picArray from "../components/image_importer";
 
-import slot_icons from "../components/slot_icons_importer";
 import ContactForm_Person from "./ContactForm_Person";
+import HouseDetail_FacilityIcons from "./HouseDetail_FacilityIcons";
+import HouseDetail_descriptionH from "./HouseDetail_descriptionH";
 import orange_icon from "../media/icon_orange.png";
+import CardBoard_container from "./CardBoard_container";
 
 var HouseDetail_container = (props) => {
     let data_in = props.house_data;
@@ -25,67 +25,14 @@ var HouseDetail_container = (props) => {
                             ></img>
                         ))}
                     </div>
+                    <HouseDetail_FacilityIcons house_data={data_in} />
 
-                    <div className="details-container">
-                        <div className="details-title">Details </div>
-                        <div className="details-slots">
-                            <div className="slot-box">
-                                {" "}
-                                <img
-                                    style={{ height: "2vw" }}
-                                    src={slot_icons.bed_icon.default}
-                                ></img>{" "}
-                                {data_in.room_slots}{" "}
-                            </div>
-                            <div className="slot-box">
-                                {" "}
-                                <img
-                                    style={{ height: "2vw" }}
-                                    src={slot_icons.bathroom_icon.default}
-                                ></img>{" "}
-                                {data_in.bath_rooms}{" "}
-                            </div>
-                            <div className="slot-box">
-                                {" "}
-                                <img
-                                    style={{ height: "2vw" }}
-                                    src={slot_icons.floor_icon.default}
-                                ></img>{" "}
-                                {data_in.floor}{" "}
-                            </div>
-                            <div className="slot-box">
-                                {" "}
-                                <img
-                                    style={{ height: "2vw" }}
-                                    src={slot_icons.garage_icon.default}
-                                ></img>{" "}
-                                {data_in.garage}{" "}
-                            </div>
-                            <div className="slot-box">
-                                {" "}
-                                <img
-                                    style={{ height: "2vw" }}
-                                    src={slot_icons.calendar_icon.default}
-                                ></img>{" "}
-                                {data_in.data_fabrication}{" "}
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="description_House">
-                        <div className="title-description">
-                            {" "}
-                            <h2 className="title_desc"> Description</h2>
-                        </div>
-                        <div className="long-text">
-                            {" "}
-                            <h3 className="full-text">
-                                {" "}
-                                {data_in.description_full}{" "}
-                            </h3>{" "}
-                        </div>
-                    </div>
-
+                    {/* <HouseDetail_descriptionH data_in={data_in} /> */}
+                    <CardBoard_container
+                        title="Details"
+                        full_text="Blabla"
+                        data_in={data_in}
+                    />
                     <div className="card_template">
                         <div className="title-description">
                             <h2 className="title_desc"> Features</h2>{" "}
