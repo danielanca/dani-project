@@ -1,8 +1,8 @@
-import arrow_right from "../media/arrow.png";
-import "./ContactForm_Person.css";
+import arrow_right from "../../media/arrow.png";
+import "../ContactForm/ContactForm_Person.css";
 var ContactForm_Person = (props) => {
     let person_data = props.person_data;
-    let person_picture = require("../media/avatars/" +
+    let person_picture = require("../../media/avatars/" +
         person_data.seller.profile_pic);
     return (
         <div className="contact-form">

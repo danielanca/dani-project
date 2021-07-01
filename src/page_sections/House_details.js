@@ -1,10 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import HouseDetail_header from "../components/HouseDetail_header";
-import HouseDetail_container from "../components/HouseDetail_container";
-import SiteFooter from "../components/SiteFooter";
-import SimilarListing from "../components/SimilarListing";
-import NavBar from "../components/NavBar";
+import HouseDetail_header from "components/HouseDetail/HouseDetail_header";
+import HouseDetail_container from "components/HouseDetail/HouseDetail_container";
+import SiteFooter from "components/SiteFooter/SiteFooter";
+import SimilarListing from "components/SimilarListing/SimilarListing";
+import NavBar from "components/NavBar/NavBar";
 
 import "./house_details.css";
 
