@@ -24,7 +24,12 @@ const Details_component = () => {
                             extensive prebuilt components, and powerful
                             JavaScript plugins.
                         </p>
-                        <Push_Button text="Click Here" />
+                        <Push_Button
+                            bg_color="black"
+                            text_color="white"
+                            text="Learn More"
+                            classNameParams="float-left"
+                        />
                         <div className="d-grid gap-2 d-md-flex justify-content-md-start">
                             {" "}
                         </div>

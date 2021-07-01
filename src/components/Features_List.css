@@ -1,0 +1,9 @@
+.features-list{
+    position: relative;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: start;
+    
+}

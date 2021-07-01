@@ -3,11 +3,13 @@ import picArray from "../components/image_importer";
 import ContactForm_Person from "./ContactForm_Person";
 import HouseDetail_FacilityIcons from "./HouseDetail_FacilityIcons";
 import HouseDetail_descriptionH from "./HouseDetail_descriptionH";
-import orange_icon from "../media/icon_orange.png";
-import CardBoard_container from "./CardBoard_container";
 
+import CardBoard_container from "./CardBoard_container";
+import Features_List from "./Features_List";
+import TextComponent from "./TextComponent";
 var HouseDetail_container = (props) => {
     let data_in = props.house_data;
+
     let photo_preview = require("../media/house_list/" + data_in.img_src);
     return (
         <div className="container-fluid">
@@ -26,50 +28,14 @@ var HouseDetail_container = (props) => {
                         ))}
                     </div>
                     <HouseDetail_FacilityIcons house_data={data_in} />
-
                     {/* <HouseDetail_descriptionH data_in={data_in} /> */}
-                    <CardBoard_container
-                        title="Details"
-                        full_text="Blabla"
-                        data_in={data_in}
-                    />
-                    <div className="card_template">
-                        <div className="title-description">
-                            <h2 className="title_desc"> Features</h2>{" "}
-                        </div>
-                        <div className="long-text">
-                            <ul className="features-list">
-                                <li>
-                                    <img
-                                        className="orange_icon"
-                                        src={orange_icon}
-                                    ></img>{" "}
-                                    WiFi: {data_in.features.Wifi}
-                                </li>
-                                <li>
-                                    <img
-                                        className="orange_icon"
-                                        src={orange_icon}
-                                    ></img>{" "}
-                                    TV: {data_in.features.Television}
-                                </li>
-                                <li>
-                                    <img
-                                        className="orange_icon"
-                                        src={orange_icon}
-                                    ></img>
-                                    Radio: {data_in.features.Radio}
-                                </li>
-                                <li>
-                                    <img
-                                        className="orange_icon"
-                                        src={orange_icon}
-                                    ></img>
-                                    Ocean View: {data_in.features.Ocean_view}
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+
+                    <CardBoard_container title="Details">
+                        <TextComponent house_data={data_in} />
+                    </CardBoard_container>
+                    <CardBoard_container title="Features">
+                        <Features_List house_data={data_in} />
+                    </CardBoard_container>
                 </div>
 
                 <div className="col-4">

@@ -1,17 +1,12 @@
 .button_atr {
-    background-color: black;
-    color: white;
-    text-align: start;
+
     font-size: 1rem;
     font-weight: 400;
     border-radius: 0 20px 0 0;
     height: 56px;
     width: 14vw;
-    position: relative;
-    left: -10vw;
-    justify-content: flex-start;
+ 
 }
-
 
 .clickarrow{
     background-image: var(--click_arrow);
